@@ -22,7 +22,9 @@ body{
 }
 /*change header background colour*/
 .header:hover{
-    background-color: blue;
+    background-color:goldenrod;
+    transform: rotate(360deg);
+    transition: .3s;
 }
 .header-title{
     margin-left: 7%;
@@ -141,11 +143,69 @@ body{
 }
 
 /*
+        ========================
+        ~~~~For bonus marks~~~~
+        ========================
+*/
+
+.vision{
+    height: 100vh;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.fifa-half-width{
+    width:50%;
+   
+}
+.fifa-info{
+    color: white;
+    position: relative;
+    top: 40%;
+    left:10%
+}
+.fifa-info h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.fifa-info p{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+    line-height: 1.7rem;
+}
+.fifa-info a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.fifa-info button{
+    padding: 15px 35px;
+    background-color:#0261A6;
+    border:none;
+    border-radius: 30px;
+}
+.fifa-info button:hover{
+    
+    background-color: #1b8ee0;
+}
+
+
+
+/*
 ========================
 start social media section
 ========================
 */
 
+.logo img{
+    width: 25%;
+    display: block;
+    margin: 20px auto;
+  
+}
 .media-icon{
     text-align: center;
     
@@ -175,3 +235,8 @@ start  footer section
     outline-width: bold;
     
     }
+
+
+
+    /*mobile devices
+    tablet devices*/
