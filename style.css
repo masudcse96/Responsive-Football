@@ -236,7 +236,62 @@ start  footer section
     
     }
 
+/* 
+------------------------
+========================
+    responsive part
+========================
+------------------------
+*/
+
+    /*For mobile devices*/
+    @media only screen and (max-width: 600px){
+        /*header part*/
+        .header{
+            background-color: #2D25A0;
+            display: block;
+            height: 80vh;
+        }
+        .header-image img{
+            display: block;
+            margin: 20px auto;
+            
+        }
+
+        /*main part*/
+        .container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        /*highlight part*/
+        .highlights{
+           
+            height: 95vh;
+            margin-top: 10%;
+            margin-left: 5%;
+            display: block;
+            
+        }
 
 
-    /*mobile devices
-    tablet devices*/
+    }
+
+    /*For tablet devices*/
+    @media only screen and (max-width: 768px){
+        /*main part*/
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .wrapper{
+            margin: 25px;
+            height: 90vh;
+            box-shadow: 10px 10px 40px rgb(204, 195, 195);
+            border-radius: 10px;
+        }
+
+    }
