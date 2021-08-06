@@ -102,11 +102,6 @@ body{
     color: rgb(105, 103, 103);
     font-size: 14px;
 }
-/*
-        =========================
-        End main section style
-        =========================
-*/
 
 
 /*
@@ -142,13 +137,41 @@ body{
     margin-bottom: 5%;
 }
 .copa-image img{
-    width: 80%;
+    width: 100%;
 }
 
 /*
-    = ``` ========================
- || End Highlights section style ||
-    =``` ========================
+========================
+start social media section
+========================
 */
 
+.media-icon{
+    text-align: center;
+    
+}
+.media-icon span{
+    padding-left: 15px;
+}
+.fab, .far{
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(177, 174, 174);
+    border-radius: 50%;
+}
 
+/*
+========================
+start  footer section
+========================
+*/
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.cp-text{ 
+    color: rgb(88, 88, 88);
+    outline-width: bold;
+    
+    }
